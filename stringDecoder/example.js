@@ -7,7 +7,7 @@ console.log(decoder.write(cent));
 
 var euro=new Buffer([0xe2,0x82,0xac]);
 
-console.log(decoder.write(euro));   //将编码方式转化为utf8的
+console.log(decoder.write(euro));   //将buffer编码方式转化为utf8的输出
 
 console.log(decoder.end());
 

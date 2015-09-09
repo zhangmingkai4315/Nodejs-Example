@@ -9,3 +9,4 @@ console.log(qs1);
 var deqs1=querystring.parse(qs1,null,null,{encodeURIComponent: querystring.gbkDecodeURIComponent})
 
 console.log(deqs1);
+]
