@@ -8,3 +8,5 @@ out.err.gz
 out.txt
 
 test.err
+
+node_modules
