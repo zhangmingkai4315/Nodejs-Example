@@ -33,4 +33,4 @@ console.log(util.isNullOrUndefined(null));    //true
 console.log(util.isNullOrUndefined(undefined)); //true
 
 
-console.log(util.isError(new Error()));
+console.log(util.isError(new Error()));  //true
