@@ -13,7 +13,7 @@ Cumstorm.prototype._read=function(){
   if(i>this._max){
     this.push(null);
   }else{
-    var str=''+i;
+    var str='\n'+i;
     var buffer=new Buffer(str,'ascii');
     this.push(buffer);
   }
