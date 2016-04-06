@@ -1,5 +1,5 @@
 
-console.log('Imported')
+console.log('Imported');
 export default function Hello() {
   this.name = 'mike';
 }
