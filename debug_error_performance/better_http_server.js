@@ -11,7 +11,7 @@ d.run(() => {
       server.close();
       setTimeout(process.exit, 5000, 1);
     });
-    response.end('hello')
+    response.end('hello');  // will throw error but only in domain;
   });
   server.listen(3000);
 });

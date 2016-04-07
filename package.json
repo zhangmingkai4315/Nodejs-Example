@@ -22,6 +22,10 @@
     "eslint": "^2.7.0",
     "eslint-config-airbnb": "^6.2.0",
     "eslint-plugin-react": "^4.2.3",
-    "heapdump": "^0.3.7"
+    "heapdump": "^0.3.7",
+    "tap": "^5.7.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
   }
 }
