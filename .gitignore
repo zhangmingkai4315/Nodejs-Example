@@ -10,3 +10,13 @@ out.txt
 test.err
 
 node_modules
+
+*.log
+
+*.log
+
+*.log
+
+*.heapsnapshot
+
+*.log
