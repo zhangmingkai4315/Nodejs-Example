@@ -1,0 +1,18 @@
+{
+    "extends": "airbnb",
+    "env": {
+        "browser": true,
+        "node": true,
+        "mocha": true
+    },
+    "ecmaFeatures": {
+        "forOf": true,
+        "jsx": true,
+        "es6": true
+    },
+    "rules": {
+        "indent": ["error",2, {"SwitchCase": 1}],
+        "comma-dangle": 0,
+        "react/prop-types": 0
+    }
+}
