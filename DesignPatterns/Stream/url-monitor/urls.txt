@@ -1,0 +1,6 @@
+http://baidu.com
+http://jsmean.com
+http://sina.com.cn
+http://icbc.com.cn
+http://www.bbc.com
+http://www.non-existed-domain.com.cn

@@ -32,4 +32,8 @@ objs.map(function(obj){
 
 tfs.end(function(){
   console.log("All file created!");
-})
+});
+
+// 这里我们显示设置流式处理的方式是objectMode
+// 每次调用的时候都是直接将数据对象直接通过write写入流中
+// 当调用end的时候代表数据传递完毕
