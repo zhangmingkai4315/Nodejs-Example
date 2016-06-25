@@ -1,11 +1,11 @@
 var fs = require('fs');
 var split = require('split');
 var request = require('request');
-var ParallelSteam = require("./ParallelSteam.js");
-
+// var ParallelSteam = require("./ParallelSteam.js");
+var LimitedParallelStream =require("./LimitedParallelStream")
 fs.createReadStream(process.argv[2])
   .pipe(split())
-  .pipe(new ParallelSteam(function(url,enc,done){
+  .pipe(new LimitedParallelStream(1,function(url,enc,done){
     if(!url){
       return done();
     }

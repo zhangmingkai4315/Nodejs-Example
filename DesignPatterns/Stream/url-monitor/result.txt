@@ -1,6 +1,6 @@
 http://www.non-existed-domain.com.cn is down
-http://baidu.com is up
 http://icbc.com.cn is up
+http://baidu.com is up
 http://sina.com.cn is up
 http://www.bbc.com is up
 http://jsmean.com is up
